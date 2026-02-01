@@ -1,15 +1,15 @@
 class SslToolkit < Formula
   desc "SSL certificate toolkit"
   homepage "https://github.com/russmckendrick/ssl-toolkit"
-  version "0.0.4"
+  version "0.0.5"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/russmckendrick/ssl-toolkit/releases/download/v0.0.4/ssl-toolkit-darwin-arm64"
-      sha256 "a10d0e8fcdc227069386bc344dc5f478789b096ea2f266958e3fd73ad146b6de"
+      url "https://github.com/russmckendrick/ssl-toolkit/releases/download/v0.0.5/ssl-toolkit-darwin-arm64"
+      sha256 "Not"
     else
-      url "https://github.com/russmckendrick/ssl-toolkit/releases/download/v0.0.4/ssl-toolkit-darwin-amd64"
-      sha256 "5adf7373d782242d7d3a8c08f2acfbbb6aff2ce1193a42503942abe45d1a2ed5"
+      url "https://github.com/russmckendrick/ssl-toolkit/releases/download/v0.0.5/ssl-toolkit-darwin-amd64"
+      sha256 "Not"
     end
   end
 
