@@ -1,6 +1,6 @@
 cask "tokenuse-desktop" do
-  version "0.0.4"
-  sha256 "253b7f1436dd961531272dad15da76ea0c213749b14a59f17a555325dc3ad6f9"
+  version "0.0.5"
+  sha256 "479f2d44d281708455af9f2d3c7f8b3014c61f46605d2f4091708ebdc1733955"
 
   url "https://github.com/russmckendrick/tokenuse/releases/download/v#{version}/tokenuse-desktop-macos-universal.dmg"
   name "Token Use"
