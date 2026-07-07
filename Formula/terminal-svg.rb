@@ -1,25 +1,25 @@
 class TerminalSvg < Formula
   desc "Pixel-perfect SVG screenshots of terminal output with window chrome"
   homepage "https://github.com/russmckendrick/terminal-svg"
-  version "0.4.0"
+  version "0.5.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/russmckendrick/terminal-svg/releases/download/v0.4.0/terminal-svg-darwin-arm64"
-      sha256 "f21295cb630c7a634667de4d378a33db48f816635870cb3bcc8083dade1c2926"
+      url "https://github.com/russmckendrick/terminal-svg/releases/download/v0.5.0/terminal-svg-darwin-arm64"
+      sha256 "db6f901ccd2ee9666a37ca49425cd5939cf490310fe6a6bc4273cc2d7e32760f"
     else
-      url "https://github.com/russmckendrick/terminal-svg/releases/download/v0.4.0/terminal-svg-darwin-amd64"
-      sha256 "376bc6625cc35d311ae03cad65c58009e7317787df05168dfe7d3e1c48d7eb3a"
+      url "https://github.com/russmckendrick/terminal-svg/releases/download/v0.5.0/terminal-svg-darwin-amd64"
+      sha256 "37ed4fa8174057bb9ba6117dbea5ed0f00e0d52adf8e501be7570caa0fbe8aab"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/russmckendrick/terminal-svg/releases/download/v0.4.0/terminal-svg-linux-arm64"
-      sha256 "15f205680a5410b7ac8fb5a8418b071602ebb8dbf90ce3184aa830260d0da7de"
+      url "https://github.com/russmckendrick/terminal-svg/releases/download/v0.5.0/terminal-svg-linux-arm64"
+      sha256 "b8018e96a0f37c21f43137bd675e2853c355ed91243c9f15f538f78b6cb13f86"
     else
-      url "https://github.com/russmckendrick/terminal-svg/releases/download/v0.4.0/terminal-svg-linux-amd64"
-      sha256 "1198b0719cee0006feacdf4879a7fed89bd6f6f7f11d287bf45309da6731e2a0"
+      url "https://github.com/russmckendrick/terminal-svg/releases/download/v0.5.0/terminal-svg-linux-amd64"
+      sha256 "c40f9a8b8734fba71de8f033d2ddf17f98d76b776b5aa1df5c9bfb5730f52e50"
     end
   end
 
