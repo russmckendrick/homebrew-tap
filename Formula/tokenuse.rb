@@ -1,25 +1,25 @@
 class Tokenuse < Formula
   desc "Local-only Rust TUI for AI coding tool token and cost usage"
   homepage "https://github.com/russmckendrick/tokenuse"
-  version "1.0.0"
+  version "1.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/russmckendrick/tokenuse/releases/download/v1.0.0/tokenuse-darwin-arm64"
-      sha256 "c7b0177cfae966e7242ac6c84baaaf7eb7d5b93cabbf755ea12cd28504de4e85"
+      url "https://github.com/russmckendrick/tokenuse/releases/download/v1.1.0/tokenuse-darwin-arm64"
+      sha256 "7cb2b4c049b6ed790105d62413e241145210b6b7b3cf1055f3584b0172bb9f7e"
     else
-      url "https://github.com/russmckendrick/tokenuse/releases/download/v1.0.0/tokenuse-darwin-amd64"
-      sha256 "1e2c090a5c1b65aa9dac116bcc5cdf20c1c471e8342b0626b4fda7cea9e808b3"
+      url "https://github.com/russmckendrick/tokenuse/releases/download/v1.1.0/tokenuse-darwin-amd64"
+      sha256 "3505d7784ad050d53ee1a65c864536a06325e035399e2bfa043545e2b08ec778"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/russmckendrick/tokenuse/releases/download/v1.0.0/tokenuse-linux-arm64"
-      sha256 "27236f0cf565f8c1c9e1bc552603b3144e7dadfe86d5d27f642dca8da338ffb8"
+      url "https://github.com/russmckendrick/tokenuse/releases/download/v1.1.0/tokenuse-linux-arm64"
+      sha256 "35fad484daec1666a08a7c1c28b33b69ac7a5f2b687dd2a6decf5ab029447b7b"
     else
-      url "https://github.com/russmckendrick/tokenuse/releases/download/v1.0.0/tokenuse-linux-amd64"
-      sha256 "94dec9599d0b8afa52fd5abb8317cf1d76ca7002f7a707510e872ccdecfd0aac"
+      url "https://github.com/russmckendrick/tokenuse/releases/download/v1.1.0/tokenuse-linux-amd64"
+      sha256 "199b93552bed071a82ecc3a320978e1251d914b4259e054bffecb3ff89b3acdc"
     end
   end
 
