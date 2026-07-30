@@ -13,12 +13,21 @@ class SslToolkit < Formula
     end
   end
 
-  def install
+  on_linux do
     if Hardware::CPU.arm?
-      bin.install "ssl-toolkit-darwin-arm64" => "ssl-toolkit"
+      url "https://github.com/russmckendrick/ssl-toolkit/releases/download/v0.0.7/ssl-toolkit-linux-arm64"
+      sha256 "bee32ad2eb118b4bb0241a389d8ab10c66d9532aabbd443dfebcb593a00d844a"
     else
-      bin.install "ssl-toolkit-darwin-amd64" => "ssl-toolkit"
+      url "https://github.com/russmckendrick/ssl-toolkit/releases/download/v0.0.7/ssl-toolkit-linux-amd64"
+      sha256 "dd1ce77f80d8e7e20cc883f10a150dcdc635822ea706ebb46f9e396b5e5098d6"
     end
+  end
+
+  def install
+    os = OS.mac? ? "darwin" : "linux"
+    arch = Hardware::CPU.arm? ? "arm64" : "amd64"
+
+    bin.install "ssl-toolkit-#{os}-#{arch}" => "ssl-toolkit"
   end
 
   test do
