@@ -1,15 +1,15 @@
 class Aicommit < Formula
   desc "AI-assisted Git commit messages"
   homepage "https://github.com/russmckendrick/aicommit"
-  version "0.0.8"
+  version "0.0.9"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/russmckendrick/aicommit/releases/download/v0.0.8/aic-darwin-arm64"
-      sha256 "bb6630fe57789ea7a087b685c7d543027ce8fd69d796c2e4042b1184650e1667"
+      url "https://github.com/russmckendrick/aicommit/releases/download/v0.0.9/aic-darwin-arm64"
+      sha256 "aac8e3af8c2ff808137dc4c1f422cfa573c8f9d4c106e391ed50dd72d65decf1"
     else
-      url "https://github.com/russmckendrick/aicommit/releases/download/v0.0.8/aic-darwin-amd64"
-      sha256 "8f506cbab3cb6b7a66807939e743233b55bbf92b4991bf0a2630fcd50be65622"
+      url "https://github.com/russmckendrick/aicommit/releases/download/v0.0.9/aic-darwin-amd64"
+      sha256 "4088565ed1c5cf62eafae9e82b78b63d1f40bc19cb02d83520263809185bd545"
     end
   end
 
