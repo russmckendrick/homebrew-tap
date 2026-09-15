@@ -1,6 +1,6 @@
 cask "azdocs-desktop" do
-  version "0.1.0"
-  sha256 "46cda2e32c3a09c70f2988ab26caa07a30b521c712245f622d580a72f1bafae2"
+  version "0.1.1"
+  sha256 "4e1b472845fdfb7386491c17957e5aa767daff941029c5d8dc2183b19f763362"
 
   url "https://github.com/russmckendrick/azdocs/releases/download/v#{version}/azdocs-desktop-macos-arm64.dmg"
   name "azdocs"

@@ -1,26 +1,26 @@
 class Azdocs < Formula
   desc "Audit, explore and document Azure estates from local snapshots"
   homepage "https://github.com/russmckendrick/azdocs"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/russmckendrick/azdocs/releases/download/v0.1.0/azdocs-darwin-arm64.tar.gz"
-      sha256 "563978d330c948e835922f6ff667e68645a8bc98fce5bb4367fe3dae92443e31"
+      url "https://github.com/russmckendrick/azdocs/releases/download/v0.1.1/azdocs-darwin-arm64.tar.gz"
+      sha256 "c47e69296968ee56674548cf295ab711e1d20d10c3c5982790e5bd921b8aeb65"
     else
-      url "https://github.com/russmckendrick/azdocs/releases/download/v0.1.0/azdocs-darwin-amd64.tar.gz"
-      sha256 "9ee5f9d9afd015171467a2af353a532ae4507c5d557a4dd2bf6c26b9074909cf"
+      url "https://github.com/russmckendrick/azdocs/releases/download/v0.1.1/azdocs-darwin-amd64.tar.gz"
+      sha256 "532dccbed3a70817d9e2588522173c80518f0043450ffb2000747ae57eeb5a58"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/russmckendrick/azdocs/releases/download/v0.1.0/azdocs-linux-arm64.tar.gz"
-      sha256 "77e1fb725f7c2881b37a6ed0660463db3632f0ce7b1a577256048bdb358a4336"
+      url "https://github.com/russmckendrick/azdocs/releases/download/v0.1.1/azdocs-linux-arm64.tar.gz"
+      sha256 "baeac669182a13ea3852feb41e01cd4523a636fc3c250f018ef69d8d3df15a3d"
     else
-      url "https://github.com/russmckendrick/azdocs/releases/download/v0.1.0/azdocs-linux-amd64.tar.gz"
-      sha256 "6336253f2ae9e09bb8b28a30d2acb19aee2078e621229ad015311e2504088259"
+      url "https://github.com/russmckendrick/azdocs/releases/download/v0.1.1/azdocs-linux-amd64.tar.gz"
+      sha256 "327466832023730889e07cb44767065e53bf3219a578a25a55244bb0e37f708a"
     end
   end
 
