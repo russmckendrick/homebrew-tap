@@ -6,10 +6,10 @@ class Aicommit < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/russmckendrick/aicommit/releases/download/v0.0.10/aic-darwin-arm64"
-      sha256 "5682aebcb3cb437bf9d2800245f24a5b89d5630fa8535981875fc4c33c1f4050"
+      sha256 "8626aa988d1499f43d4856bcb2767d18528e4592fb59f03f14c2ac94fdd73ea8"
     else
       url "https://github.com/russmckendrick/aicommit/releases/download/v0.0.10/aic-darwin-amd64"
-      sha256 "8c951f374fd86d8016940eb1cd49f5257fcccf6194cd7fdf92f3d4f4d936f169"
+      sha256 "c6ddb40c9fe3fbeffd300fb461212157769aa777a489abc38f0f0491d859c365"
     end
   end
 
